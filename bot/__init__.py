@@ -710,7 +710,7 @@ try:
         raise KeyError
 except:
     START_BTN1_NAME = 'Master'
-    START_BTN1_URL = 'https://t.me/krn_adhikari'
+    START_BTN1_URL = 'https://t.me/ahmed15basher'
 
 try:
     START_BTN2_NAME = getConfig('START_BTN2_NAME')
@@ -718,8 +718,8 @@ try:
     if len(START_BTN2_NAME) == 0 or len(START_BTN2_URL) == 0:
         raise KeyError
 except:
-    START_BTN2_NAME = 'Support Group'
-    START_BTN2_URL = 'https://t.me/WeebZone_updates'
+    START_BTN2_NAME = 'Main channel'
+    START_BTN2_URL = 'https://t.me/IIIIITV0'
 try:
     CREDIT_NAME = getConfig('CREDIT_NAME')
     if len(CREDIT_NAME) == 0:
